@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1567858126 source:c:\users\maste\onedrive\Рабочий стол\Лаби\testtttttt\main.cpp
+	<bits/stdc++.h>
+	<math.h>
+	"Zoo.h"
+
+1567859108 c:\users\maste\onedrive\Рабочий стол\Лаби\testtttttt\zoo.h
+	<iostream>
+
+1571673265 source:c:\users\maste\onedrive\Рабочий стол\labs\4\main.cpp
+	<bits/stdc++.h>
+	<math.h>
+	"Zoo.h"
+
+1571673787 c:\users\maste\onedrive\Рабочий стол\labs\4\zoo.h
+	"Zoo.cpp"
+
+1571673651 c:\users\maste\onedrive\Рабочий стол\labs\4\zoo.cpp
+	"Zoo.h"
+
+1571673974 c:\users\maste\onedrive\Рабочий стол\labs\4\include\zoo.h
+	<bits/stdc++.h>
+	<math.h>
+
