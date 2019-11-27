@@ -1,19 +1,19 @@
 #include <iostream>
-#include "MatrixColumn.h"
-#define NumberOfColumns 5
+#include "ArrayColumn.h"
+#define quantityOfColumns 5
 using namespace std;
 
 int main()
 {
-    MatrixColumn Matrix5x5[NumberOfColumns];
-    InpM(a);
-    SortM(a);
-    cout << "\n";
-    for(int i = 0;  i< 5;i++){
-        a[i].OutM();
-        cout << "\n";
-    }
-    OutF(a);
+	arrayColumn columns[quantityOfColumns];
+	inputColumns(columns);
+	sortArrayColumnMergeBescending(columns);
+	cout << "\n";
+	for (int numberOfColumn = 0; numberOfColumn < quantityOfColumns; numberOfColumn++) {
+		columns[numberOfColumn].outputColumns();
+		cout << "\n";
+	}
+	functionCountingAndOutput(columns);
 
-    return 0;
+	return 0;
 }
