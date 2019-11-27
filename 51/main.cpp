@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Vector.h"
-
+#include "MatrixColumn.h"
+#define NumberOfColumns 5
 using namespace std;
 
 int main()
 {
-    Vector a[5];
+    MatrixColumn Matrix5x5[NumberOfColumns];
     InpM(a);
     SortM(a);
     cout << "\n";
